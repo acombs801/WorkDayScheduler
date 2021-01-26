@@ -1,4 +1,4 @@
-This is an 'in-browser' responsive day planner built with JavaScript that saves your lists, goals, events, etc.
+This is an 'in-browser' responsive day planner built with JavaScript with the help of Jquery that saves your lists, goals, events, etc.
 
 
 
