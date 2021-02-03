@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(187, 108, 4);
+  background-color: rgb(158, 14, 9);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
@@ -29,6 +29,8 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  color: #d3d3d3;
+  font-weight: bold;
 }
 
 .row {
@@ -50,7 +52,7 @@ textarea{
 
 .present {
   background-color: #ff6961;
-  color: rgb(34, 189, 14);
+  color: rgb(193, 196, 12);
 }
 
 .future {
@@ -62,7 +64,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #0671d5;
+  background-color: #062cd5;
   color: white;
 }
 
@@ -72,7 +74,7 @@ textarea{
 }
 
 #currentDay{
-  color: rgb(34, 189, 14);
+  color: white;
   font-size: 30px;
   font-style: italic;
   font-weight: 600;
