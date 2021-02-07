@@ -9,7 +9,7 @@
 //When page is refreshed the events persist
 
 var todaysDate = moment().format('LLL');
-    console.log(todaysDate);
+    console.log("Current time:", todaysDate);
 var event = localStorage.getItem("Event");
     
 
@@ -27,7 +27,7 @@ for (let i = 0; i < times.length; i++) {
     var button = $("<button>").addClass("saveBtn col-1");
     container.append(row);
     row.append(timeBlock, textArea, button);
-}
+};
 
 
 
@@ -36,22 +36,16 @@ $(".saveBtn").on("click", function(){
     var timeEl = $(this).prev().prev().text();
 
     localStorage.setItem(JSON.stringify(timeEl).replace(/["']/g, ""), JSON.stringify(eventContent));
-    // localStorage.setItem("Time", JSON.stringify(timeEl));
-
 
     console.log(timeEl);
     console.log(eventContent);
-  
 });
 
    function renderSavedData() {
-    //  var saved9am = JSON.parse(localStorage.getItem("9am"));
-    //  var saved10am = JSON.parse(localStorage.getItem("10am"));
+
     for (let i = 0; i < localStorage.length; i++) {
-        console.log(document.getElementById(localStorage.key(i)));
         if(document.getElementById(localStorage.key(i)) !== null){
-        
-        document.getElementById(localStorage.key(i)).value = localStorage.getItem(localStorage.key(i)).replace(/["']/g, "");
+            document.getElementById(localStorage.key(i)).value = localStorage.getItem(localStorage.key(i)).replace(/["']/g, "");
         }
     };
 
