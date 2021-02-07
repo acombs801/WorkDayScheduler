@@ -10,3 +10,6 @@ credits: -->| moment.js |<--
  	 -->| authors : Tim Wood, Iskren Chernev, Moment.js contributors |<--
 	 -->| license : MIT |<--
  	 -->| momentjs.com |<--
+
+	  Lock icon made by: https://www.flaticon.com/authors/kiranshastry
+	  from: https://www.flaticon.com/
